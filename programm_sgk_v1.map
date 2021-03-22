@@ -1,0 +1,1557 @@
+
+Map of ..\program_sgk_v1\programm_sgk_v1.sm8 from link file ..\program_sgk_v1\programm_sgk_v1.lkf - Mon Dec 17 21:57:44 2018
+
+
+                               --------
+                               Segments
+                               --------
+
+start 00008080 end 000081d1 length   337 segment .const
+start 000081d4 end 0000ba43 length 14447 segment .text
+start 00004000 end 00004000 length     0 segment .eeprom
+start 00000000 end 00000000 length     0 segment .bsct
+start 00000000 end 0000000a length    10 segment .ubsct
+start 0000000a end 0000000a length     0 segment .bit
+start 0000000a end 0000000a length     0 segment .share
+start 00000100 end 00000100 length     0 segment .data
+start 00000100 end 000001a2 length   162 segment .bss
+start 00000000 end 00000b62 length  2914 segment .info.
+start 00000000 end 0000daf7 length 56055 segment .debug
+start 00008000 end 00008080 length   128 segment .const
+start 000081d1 end 000081d4 length     3 segment .init
+
+
+                               -------
+                               Modules
+                               -------
+
+C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8:
+start 000081d4 end 00008224 length    80 section .text
+start 00000100 end 00000100 length     0 section .bss
+start 00000000 end 00000000 length     0 section .ubsct
+start 00000000 end 00000034 length    52 section .info.
+
+..\program_sgk_v1\stm8s_beep.o:
+start 00008224 end 000082f9 length   213 section .text
+start 00000000 end 000002cf length   719 section .debug
+start 00000034 end 000000cf length   155 section .info.
+start 00008080 end 000080a7 length    39 section .const
+
+..\program_sgk_v1\stm8s_clk.o:
+start 000082f9 end 000088c0 length  1479 section .text
+start 000002cf end 00001926 length  5719 section .debug
+start 000000cf end 00000169 length   154 section .info.
+start 000080a7 end 000080cd length    38 section .const
+
+..\program_sgk_v1\stm8s_gpio.o:
+start 000088c0 end 000089ca length   266 section .text
+start 00001926 end 0000232c length  2566 section .debug
+start 00000169 end 00000204 length   155 section .info.
+start 000080cd end 000080e8 length    27 section .const
+
+..\program_sgk_v1\stm8s_itc.o:
+start 000089ca end 00008b5d length   403 section .text
+start 0000232c end 00002963 length  1591 section .debug
+start 00000204 end 0000029e length   154 section .info.
+start 000080e8 end 00008166 length   126 section .const
+
+..\program_sgk_v1\stm8s_spi.o:
+start 00008b5d end 00008e96 length   825 section .text
+start 00002963 end 0000387b length  3864 section .debug
+start 0000029e end 00000338 length   154 section .info.
+start 00008166 end 00008180 length    26 section .const
+
+..\program_sgk_v1\stm8s_tim1.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0000387b end 00007731 length 16054 section .debug
+start 00000338 end 000003d3 length   155 section .info.
+start ******** end ******** length     0 section .const *** removed ***
+
+..\program_sgk_v1\stm8s_tim2.o:
+start 00008e96 end 00009869 length  2515 section .text
+start 00007731 end 000099b5 length  8836 section .debug
+start 000003d3 end 0000046e length   155 section .info.
+start 00008180 end 0000819b length    27 section .const
+
+..\program_sgk_v1\stm8s_tim3.o:
+start 00009869 end 0000a05a length  2033 section .text
+start 000099b5 end 0000b75f length  7594 section .debug
+start 0000046e end 00000509 length   155 section .info.
+start 0000819b end 000081b6 length    27 section .const
+
+..\program_sgk_v1\stm8s_tim4.o:
+start 0000a05a end 0000a2ac length   594 section .text
+start 0000b75f end 0000c302 length  2979 section .debug
+start 00000509 end 000005a4 length   155 section .info.
+start 000081b6 end 000081d1 length    27 section .const
+
+..\program_sgk_v1\initial_tuning.o:
+start 0000a2ac end 0000a634 length   904 section .text
+start 0000c302 end 0000c5a4 length   674 section .debug
+start 000005a4 end 00000643 length   159 section .info.
+
+..\program_sgk_v1\main.o:
+start 0000a634 end 0000a67f length    75 section .text
+start 00000100 end 000001a2 length   162 section .bss
+start 0000c5a4 end 0000cf17 length  2419 section .debug
+start 00000643 end 000006d8 length   149 section .info.
+start ******** end ******** length     0 section .const *** removed ***
+
+..\program_sgk_v1\stm8s_it.o:
+start 0000a67f end 0000b017 length  2456 section .text
+start 0000cf17 end 0000d5dd length  1734 section .debug
+start 000006d8 end 00000771 length   153 section .info.
+
+..\program_sgk_v1\subroutines.o:
+start 0000b017 end 0000b8a1 length  2186 section .text
+start 0000d5dd end 0000d9d1 length  1012 section .debug
+start 00000771 end 0000080d length   156 section .info.
+
+(C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)imul.o:
+start 0000b8a1 end 0000b8c2 length    33 section .text
+start 0000080d end 0000083c length    47 section .info.
+
+(C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lcmp.o:
+start 0000b8c2 end 0000b8e2 length    32 section .text
+start 0000083c end 0000086b length    47 section .info.
+
+(C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)llsh.o:
+start 0000b8e2 end 0000b8f1 length    15 section .text
+start 0000086b end 0000089a length    47 section .info.
+
+(C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lreg.o:
+start 00000000 end 00000004 length     4 section .ubsct
+start 0000089a end 000008c9 length    47 section .info.
+
+(C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ltor.o:
+start 0000b8f1 end 0000b903 length    18 section .text
+start 000008c9 end 000008f8 length    47 section .info.
+
+(C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ludiv.o:
+start 0000b903 end 0000b917 length    20 section .text
+start 000008f8 end 00000928 length    48 section .info.
+
+(C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o:
+start 0000b917 end 0000ba02 length   235 section .text
+start 00000928 end 00000957 length    47 section .info.
+
+(C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgneg.o:
+start 0000ba02 end 0000ba15 length    19 section .text
+start 00000957 end 00000987 length    48 section .info.
+
+(C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lneg.o:
+start 0000ba15 end 0000ba2a length    21 section .text
+start 00000987 end 000009b6 length    47 section .info.
+
+(C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)rtol.o:
+start 0000ba2a end 0000ba3c length    18 section .text
+start 000009b6 end 000009e5 length    47 section .info.
+
+(C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)utolx.o:
+start 0000ba3c end 0000ba43 length     7 section .text
+start 000009e5 end 00000a15 length    48 section .info.
+
+(C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)xreg.o:
+start 00000004 end 00000007 length     3 section .ubsct
+start 00000a15 end 00000a44 length    47 section .info.
+
+(C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)yreg.o:
+start 00000007 end 0000000a length     3 section .ubsct
+start 00000a44 end 00000a73 length    47 section .info.
+
+..\program_sgk_v1\stm8_interrupt_vector.o:
+start 0000d9d1 end 0000daf7 length   294 section .debug
+start 00000a73 end 00000b19 length   166 section .info.
+start 00008000 end 00008080 length   128 section .const
+
+
+                             -----------
+                             Stack usage
+                             -----------
+
+..\program_sgk_v1\initial_tuning.o:
+_Beep_Config                           41   (2)
+_CLK_Config                            12   (2)
+_GPIO_Config                           14   (2)
+_LSIMeasurment                         39   (14)
+_SPI_Config                            19   (2)
+_Timers_Config                         12   (2)
+_Variables_Config                      10   (2)
+
+..\program_sgk_v1\main.o:
+_assert_failed                          6   (6)
+_main                              >   43   (2)
+
+..\program_sgk_v1\stm8s_beep.o:
+_BEEP_Cmd                          >    2   (2)
+_BEEP_DeInit                       >    2   (2)
+_BEEP_Init                              9   (3)
+_BEEP_LSICalibrationConfig             26   (12)
+
+..\program_sgk_v1\stm8s_clk.o:
+_CLK_AdjustHSICalibrationValue     >    9   (3)
+_CLK_CCOCmd                        >    9   (3)
+_CLK_CCOConfig                     >    9   (3)
+_CLK_ClearITPendingBit             >    9   (3)
+_CLK_ClockSecuritySystemEnable     >    2   (2)
+_CLK_ClockSwitchCmd                >    9   (3)
+_CLK_ClockSwitchConfig             >   16   (10)
+_CLK_DeInit                        >    2   (2)
+_CLK_FastHaltWakeUpCmd             >    9   (3)
+_CLK_GetClockFreq                      25   (11)
+_CLK_GetFlagStatus                 >   13   (7)
+_CLK_GetITStatus                   >   10   (4)
+_CLK_GetSYSCLKSource               >    2   (2)
+_CLK_HSECmd                        >    9   (3)
+_CLK_HSICmd                        >    9   (3)
+_CLK_HSIPrescalerConfig                 9   (3)
+_CLK_ITConfig                      >   10   (4)
+_CLK_LSICmd                             9   (3)
+_CLK_PeripheralClockConfig             10   (4)
+_CLK_SWIMConfig                    >    9   (3)
+_CLK_SYSCLKConfig                  >    9   (3)
+_CLK_SYSCLKEmergencyClear          >    2   (2)
+_CLK_SlowActiveHaltWakeUpCmd       >    9   (3)
+
+..\program_sgk_v1\stm8s_gpio.o:
+_GPIO_DeInit                       >    2   (2)
+_GPIO_ExternalPullUpConfig         >   12   (6)
+_GPIO_Init                             12   (6)
+_GPIO_ReadInputData                     2   (2)
+_GPIO_ReadInputPin                 >    5   (5)
+_GPIO_ReadOutputData               >    2   (2)
+_GPIO_Write                        >    5   (5)
+_GPIO_WriteHigh                    >    5   (5)
+_GPIO_WriteLow                          5   (5)
+_GPIO_WriteReverse                 >    5   (5)
+
+..\program_sgk_v1\stm8s_it.o:
+f_ADC1_IRQHandler                  >    6   (6)
+f_AWU_IRQHandler                   >    6   (6)
+f_CLK_IRQHandler                   >    6   (6)
+f_EEPROM_EEC_IRQHandler            >    6   (6)
+f_EXTI_PORTA_IRQHandler            >    6   (6)
+f_EXTI_PORTB_IRQHandler            >    6   (6)
+f_EXTI_PORTC_IRQHandler            >    6   (6)
+f_EXTI_PORTD_IRQHandler            >    6   (6)
+f_EXTI_PORTE_IRQHandler            >    6   (6)
+f_I2C_IRQHandler                   >    6   (6)
+f_NonHandledInterrupt              >    6   (6)
+f_SPI_IRQHandler                   >    6   (6)
+f_TIM1_CAP_COM_IRQHandler          >    6   (6)
+f_TIM1_UPD_OVF_TRG_BRK_IRQHandler  >    6   (6)
+f_TIM2_CAP_COM_IRQHandler          >    6   (6)
+f_TIM2_UPD_OVF_BRK_IRQHandler      >    6   (6)
+f_TIM3_CAP_COM_IRQHandler          >    6   (6)
+f_TIM3_UPD_OVF_BRK_IRQHandler      >    6   (6)
+f_TIM4_UPD_OVF_IRQHandler          >    6   (6)
+f_TLI_IRQHandler                   >    6   (6)
+f_TRAP_IRQHandler                  >    6   (6)
+f_UART2_RX_IRQHandler              >    6   (6)
+f_UART2_TX_IRQHandler              >    6   (6)
+
+..\program_sgk_v1\stm8s_itc.o:
+_ITC_DeInit                        >    2   (2)
+_ITC_GetCPUCC                           2   (2)
+_ITC_GetSoftIntStatus                   4   (2)
+_ITC_GetSoftwarePriority           >   11   (5)
+_ITC_SetSoftwarePriority               12   (6)
+
+..\program_sgk_v1\stm8s_spi.o:
+_SPI_BiDirectionalLineConfig       >    9   (3)
+_SPI_CalculateCRCCmd                    9   (3)
+_SPI_ClearFlag                     >    9   (3)
+_SPI_ClearITPendingBit             >   10   (4)
+_SPI_Cmd                                9   (3)
+_SPI_DeInit                        >    2   (2)
+_SPI_GetCRC                        >   10   (4)
+_SPI_GetCRCPolynomial              >    2   (2)
+_SPI_GetFlagStatus                 >   10   (4)
+_SPI_GetITStatus                   >   11   (5)
+_SPI_ITConfig                          11   (5)
+_SPI_Init                              17   (11)
+_SPI_NSSInternalSoftwareCmd        >    9   (3)
+_SPI_ReceiveData                   >    2   (2)
+_SPI_ResetCRC                      >   11   (2)
+_SPI_SendData                      >    2   (2)
+_SPI_TransmitCRC                   >    2   (2)
+
+..\program_sgk_v1\stm8s_tim2.o:
+L7_TI3_Config                           6   (6)
+_TIM2_ARRPreloadConfig             >    9   (3)
+_TIM2_CCxCmd                       >   10   (4)
+_TIM2_ClearFlag                    >   10   (4)
+_TIM2_ClearITPendingBit            >    9   (3)
+_TIM2_Cmd                               9   (3)
+_TIM2_DeInit                       >    2   (2)
+_TIM2_ForcedOC1Config              >    9   (3)
+_TIM2_ForcedOC2Config              >    9   (3)
+_TIM2_ForcedOC3Config              >    9   (3)
+_TIM2_GenerateEvent                >    9   (3)
+_TIM2_GetCapture1                  >    6   (6)
+_TIM2_GetCapture2                  >    6   (6)
+_TIM2_GetCapture3                  >    6   (6)
+_TIM2_GetCounter                   >    4   (4)
+_TIM2_GetFlagStatus                >   12   (6)
+_TIM2_GetITStatus                  >   11   (5)
+_TIM2_GetPrescaler                 >    2   (2)
+_TIM2_ICInit                       >   16   (7)
+_TIM2_ITConfig                         10   (4)
+_TIM2_OC1Init                      >   14   (8)
+_TIM2_OC1PolarityConfig            >    9   (3)
+_TIM2_OC1PreloadConfig             >    9   (3)
+_TIM2_OC2Init                      >   14   (8)
+_TIM2_OC2PolarityConfig            >    9   (3)
+_TIM2_OC2PreloadConfig             >    9   (3)
+_TIM2_OC3Init                      >   14   (8)
+_TIM2_OC3PolarityConfig            >    9   (3)
+_TIM2_OC3PreloadConfig             >    9   (3)
+_TIM2_PWMIConfig                   >   18   (9)
+_TIM2_PrescalerConfig              >   10   (4)
+_TIM2_SelectOCxM                   >   10   (4)
+_TIM2_SelectOnePulseMode           >    9   (3)
+_TIM2_SetAutoreload                     2   (2)
+_TIM2_SetCompare1                  >    2   (2)
+_TIM2_SetCompare2                  >    2   (2)
+_TIM2_SetCompare3                  >    2   (2)
+_TIM2_SetCounter                        2   (2)
+_TIM2_SetIC1Prescaler                   9   (3)
+_TIM2_SetIC2Prescaler                   9   (3)
+_TIM2_SetIC3Prescaler                   9   (3)
+_TIM2_TimeBaseInit                      5   (5)
+_TIM2_UpdateDisableConfig          >    9   (3)
+_TIM2_UpdateRequestConfig          >    9   (3)
+
+..\program_sgk_v1\stm8s_tim3.o:
+L3_TI1_Config                           6   (6)
+L5_TI2_Config                           6   (6)
+_TIM3_ARRPreloadConfig             >    9   (3)
+_TIM3_CCxCmd                       >   10   (4)
+_TIM3_ClearFlag                        10   (4)
+_TIM3_ClearITPendingBit            >    9   (3)
+_TIM3_Cmd                               9   (3)
+_TIM3_DeInit                       >    2   (2)
+_TIM3_ForcedOC1Config              >    9   (3)
+_TIM3_ForcedOC2Config              >    9   (3)
+_TIM3_GenerateEvent                >    9   (3)
+_TIM3_GetCapture1                       6   (6)
+_TIM3_GetCapture2                  >    6   (6)
+_TIM3_GetCounter                   >    4   (4)
+_TIM3_GetFlagStatus                >   12   (6)
+_TIM3_GetITStatus                  >   11   (5)
+_TIM3_GetPrescaler                 >    2   (2)
+_TIM3_ICInit                           16   (7)
+_TIM3_ITConfig                     >   10   (4)
+_TIM3_OC1Init                      >   14   (8)
+_TIM3_OC1PolarityConfig            >    9   (3)
+_TIM3_OC1PreloadConfig             >    9   (3)
+_TIM3_OC2Init                      >   14   (8)
+_TIM3_OC2PolarityConfig            >    9   (3)
+_TIM3_OC2PreloadConfig             >    9   (3)
+_TIM3_PWMIConfig                   >   18   (9)
+_TIM3_PrescalerConfig              >   10   (4)
+_TIM3_SelectOCxM                   >   10   (4)
+_TIM3_SelectOnePulseMode           >    9   (3)
+_TIM3_SetAutoreload                >    2   (2)
+_TIM3_SetCompare1                  >    2   (2)
+_TIM3_SetCompare2                  >    2   (2)
+_TIM3_SetCounter                   >    2   (2)
+_TIM3_SetIC1Prescaler                   9   (3)
+_TIM3_SetIC2Prescaler                   9   (3)
+_TIM3_TimeBaseInit                 >    5   (5)
+_TIM3_UpdateDisableConfig          >    9   (3)
+_TIM3_UpdateRequestConfig          >    9   (3)
+
+..\program_sgk_v1\stm8s_tim4.o:
+_TIM4_ARRPreloadConfig             >    9   (3)
+_TIM4_ClearFlag                         9   (3)
+_TIM4_ClearITPendingBit            >    9   (3)
+_TIM4_Cmd                               9   (3)
+_TIM4_DeInit                       >    2   (2)
+_TIM4_GenerateEvent                >    9   (3)
+_TIM4_GetCounter                   >    2   (2)
+_TIM4_GetFlagStatus                >   10   (4)
+_TIM4_GetITStatus                  >   11   (5)
+_TIM4_GetPrescaler                 >    2   (2)
+_TIM4_ITConfig                         10   (4)
+_TIM4_PrescalerConfig              >   10   (4)
+_TIM4_SelectOnePulseMode           >    9   (3)
+_TIM4_SetAutoreload                >    2   (2)
+_TIM4_SetCounter                   >    2   (2)
+_TIM4_TimeBaseInit                     10   (4)
+_TIM4_UpdateDisableConfig          >    9   (3)
+_TIM4_UpdateRequestConfig          >    9   (3)
+
+..\program_sgk_v1\subroutines.o:
+_ButtonsService                        14   (3)
+_EncoderService                        20   (9)
+_FunctionStartGenerator                11   (2)
+_FunctionStopGenerator                 11   (2)
+_NumberToNumberShow                     8   (8)
+_ScreenUpdate                          13   (2)
+_StartTestPulse                        11   (2)
+_TimeService                           13   (2)
+
+Stack size: 49
+
+
+                              ---------
+                              Call tree
+                              ---------
+   1 > _BEEP_Cmd: (2)
+
+   2 > _BEEP_DeInit: (2)
+
+   3 > _CLK_AdjustHSICalibrationValue: (3)
+   4      + _assert_failed: (6)
+       
+   5 > _CLK_CCOCmd: (3)
+   6      + _assert_failed --> 4
+       
+   7 > _CLK_CCOConfig: (3)
+   8      + _assert_failed --> 4
+       
+   9 > _CLK_ClearITPendingBit: (3)
+  10      + _assert_failed --> 4
+       
+  11 > _CLK_ClockSecuritySystemEnable: (2)
+
+  12 > _CLK_ClockSwitchCmd: (3)
+  13      + _assert_failed --> 4
+       
+  14 > _CLK_ClockSwitchConfig: (10)
+  15      + _assert_failed --> 4
+       
+  16 > _CLK_DeInit: (2)
+
+  17 > _CLK_FastHaltWakeUpCmd: (3)
+  18      + _assert_failed --> 4
+       
+  19 > _CLK_GetFlagStatus: (7)
+  20      + _assert_failed --> 4
+       
+  21 > _CLK_GetITStatus: (4)
+  22      + _assert_failed --> 4
+       
+  23 > _CLK_GetSYSCLKSource: (2)
+
+  24 > _CLK_HSECmd: (3)
+  25      + _assert_failed --> 4
+       
+  26 > _CLK_HSICmd: (3)
+  27      + _assert_failed --> 4
+       
+  28 > _CLK_ITConfig: (4)
+  29      + _assert_failed --> 4
+       
+  30 > _CLK_SWIMConfig: (3)
+  31      + _assert_failed --> 4
+       
+  32 > _CLK_SYSCLKConfig: (3)
+  33      + _assert_failed --> 4
+       
+  34 > _CLK_SYSCLKEmergencyClear: (2)
+
+  35 > _CLK_SlowActiveHaltWakeUpCmd: (3)
+  36      + _assert_failed --> 4
+       
+  37 > _GPIO_DeInit: (2)
+
+  38 > _GPIO_ExternalPullUpConfig: (6)
+  39      + _assert_failed --> 4
+       
+  40 > _GPIO_ReadInputPin: (5)
+
+  41 > _GPIO_ReadOutputData: (2)
+
+  42 > _GPIO_Write: (5)
+
+  43 > _GPIO_WriteHigh: (5)
+
+  44 > _GPIO_WriteReverse: (5)
+
+  45 > _ITC_DeInit: (2)
+
+  46 > _ITC_GetSoftwarePriority: (5)
+  47      + _assert_failed --> 4
+       
+  48 > _SPI_BiDirectionalLineConfig: (3)
+  49      + _assert_failed --> 4
+       
+  50 > _SPI_ClearFlag: (3)
+  51      + _assert_failed --> 4
+       
+  52 > _SPI_ClearITPendingBit: (4)
+  53      + _assert_failed --> 4
+       
+  54 > _SPI_DeInit: (2)
+
+  55 > _SPI_GetCRC: (4)
+  56      + _assert_failed --> 4
+       
+  57 > _SPI_GetCRCPolynomial: (2)
+
+  58 > _SPI_GetFlagStatus: (4)
+  59      + _assert_failed --> 4
+       
+  60 > _SPI_GetITStatus: (5)
+  61      + _assert_failed --> 4
+       
+  62 > _SPI_NSSInternalSoftwareCmd: (3)
+  63      + _assert_failed --> 4
+       
+  64 > _SPI_ReceiveData: (2)
+
+  65 > _SPI_ResetCRC: (2)
+  66      + _SPI_CalculateCRCCmd: (3)
+  67      |    + _assert_failed --> 4
+          | 
+  68      + _SPI_Cmd: (3)
+  69      |    + _assert_failed --> 4
+          | 
+       
+  70 > _SPI_SendData: (2)
+
+  71 > _SPI_TransmitCRC: (2)
+
+  72 > _TIM2_ARRPreloadConfig: (3)
+  73      + _assert_failed --> 4
+       
+  74 > _TIM2_CCxCmd: (4)
+  75      + _assert_failed --> 4
+       
+  76 > _TIM2_ClearFlag: (4)
+  77      + _assert_failed --> 4
+       
+  78 > _TIM2_ClearITPendingBit: (3)
+  79      + _assert_failed --> 4
+       
+  80 > _TIM2_DeInit: (2)
+
+  81 > _TIM2_ForcedOC1Config: (3)
+  82      + _assert_failed --> 4
+       
+  83 > _TIM2_ForcedOC2Config: (3)
+  84      + _assert_failed --> 4
+       
+  85 > _TIM2_ForcedOC3Config: (3)
+  86      + _assert_failed --> 4
+       
+  87 > _TIM2_GenerateEvent: (3)
+  88      + _assert_failed --> 4
+       
+  89 > _TIM2_GetCapture1: (6)
+
+  90 > _TIM2_GetCapture2: (6)
+
+  91 > _TIM2_GetCapture3: (6)
+
+  92 > _TIM2_GetCounter: (4)
+
+  93 > _TIM2_GetFlagStatus: (6)
+  94      + _assert_failed --> 4
+       
+  95 > _TIM2_GetITStatus: (5)
+  96      + _assert_failed --> 4
+       
+  97 > _TIM2_GetPrescaler: (2)
+
+  98 > _TIM2_ICInit: (7)
+  99      + L3_TI1_Config: (6)
+ 100      + L5_TI2_Config: (6)
+ 101      + L7_TI3_Config: (6)
+ 102      + _TIM2_SetIC1Prescaler: (3)
+ 103      |    + _assert_failed --> 4
+          | 
+ 104      + _TIM2_SetIC2Prescaler: (3)
+ 105      |    + _assert_failed --> 4
+          | 
+ 106      + _TIM2_SetIC3Prescaler: (3)
+ 107      |    + _assert_failed --> 4
+          | 
+ 108      + _assert_failed --> 4
+       
+ 109 > _TIM2_OC1Init: (8)
+ 110      + _assert_failed --> 4
+       
+ 111 > _TIM2_OC1PolarityConfig: (3)
+ 112      + _assert_failed --> 4
+       
+ 113 > _TIM2_OC1PreloadConfig: (3)
+ 114      + _assert_failed --> 4
+       
+ 115 > _TIM2_OC2Init: (8)
+ 116      + _assert_failed --> 4
+       
+ 117 > _TIM2_OC2PolarityConfig: (3)
+ 118      + _assert_failed --> 4
+       
+ 119 > _TIM2_OC2PreloadConfig: (3)
+ 120      + _assert_failed --> 4
+       
+ 121 > _TIM2_OC3Init: (8)
+ 122      + _assert_failed --> 4
+       
+ 123 > _TIM2_OC3PolarityConfig: (3)
+ 124      + _assert_failed --> 4
+       
+ 125 > _TIM2_OC3PreloadConfig: (3)
+ 126      + _assert_failed --> 4
+       
+ 127 > _TIM2_PWMIConfig: (9)
+ 128      + L3_TI1_Config --> 99
+ 129      + L5_TI2_Config --> 100
+ 130      + _TIM2_SetIC1Prescaler --> 102
+ 131      + _TIM2_SetIC2Prescaler --> 104
+ 132      + _assert_failed --> 4
+       
+ 133 > _TIM2_PrescalerConfig: (4)
+ 134      + _assert_failed --> 4
+       
+ 135 > _TIM2_SelectOCxM: (4)
+ 136      + _assert_failed --> 4
+       
+ 137 > _TIM2_SelectOnePulseMode: (3)
+ 138      + _assert_failed --> 4
+       
+ 139 > _TIM2_SetCompare1: (2)
+
+ 140 > _TIM2_SetCompare2: (2)
+
+ 141 > _TIM2_SetCompare3: (2)
+
+ 142 > _TIM2_UpdateDisableConfig: (3)
+ 143      + _assert_failed --> 4
+       
+ 144 > _TIM2_UpdateRequestConfig: (3)
+ 145      + _assert_failed --> 4
+       
+ 146 > _TIM3_ARRPreloadConfig: (3)
+ 147      + _assert_failed --> 4
+       
+ 148 > _TIM3_CCxCmd: (4)
+ 149      + _assert_failed --> 4
+       
+ 150 > _TIM3_ClearITPendingBit: (3)
+ 151      + _assert_failed --> 4
+       
+ 152 > _TIM3_DeInit: (2)
+
+ 153 > _TIM3_ForcedOC1Config: (3)
+ 154      + _assert_failed --> 4
+       
+ 155 > _TIM3_ForcedOC2Config: (3)
+ 156      + _assert_failed --> 4
+       
+ 157 > _TIM3_GenerateEvent: (3)
+ 158      + _assert_failed --> 4
+       
+ 159 > _TIM3_GetCapture2: (6)
+
+ 160 > _TIM3_GetCounter: (4)
+
+ 161 > _TIM3_GetFlagStatus: (6)
+ 162      + _assert_failed --> 4
+       
+ 163 > _TIM3_GetITStatus: (5)
+ 164      + _assert_failed --> 4
+       
+ 165 > _TIM3_GetPrescaler: (2)
+
+ 166 > _TIM3_ITConfig: (4)
+ 167      + _assert_failed --> 4
+       
+ 168 > _TIM3_OC1Init: (8)
+ 169      + _assert_failed --> 4
+       
+ 170 > _TIM3_OC1PolarityConfig: (3)
+ 171      + _assert_failed --> 4
+       
+ 172 > _TIM3_OC1PreloadConfig: (3)
+ 173      + _assert_failed --> 4
+       
+ 174 > _TIM3_OC2Init: (8)
+ 175      + _assert_failed --> 4
+       
+ 176 > _TIM3_OC2PolarityConfig: (3)
+ 177      + _assert_failed --> 4
+       
+ 178 > _TIM3_OC2PreloadConfig: (3)
+ 179      + _assert_failed --> 4
+       
+ 180 > _TIM3_PWMIConfig: (9)
+ 181      + L3_TI1_Config --> 99
+ 182      + L5_TI2_Config --> 100
+ 183      + _TIM3_SetIC1Prescaler: (3)
+ 184      |    + _assert_failed --> 4
+          | 
+ 185      + _TIM3_SetIC2Prescaler: (3)
+ 186      |    + _assert_failed --> 4
+          | 
+ 187      + _assert_failed --> 4
+       
+ 188 > _TIM3_PrescalerConfig: (4)
+ 189      + _assert_failed --> 4
+       
+ 190 > _TIM3_SelectOCxM: (4)
+ 191      + _assert_failed --> 4
+       
+ 192 > _TIM3_SelectOnePulseMode: (3)
+ 193      + _assert_failed --> 4
+       
+ 194 > _TIM3_SetAutoreload: (2)
+
+ 195 > _TIM3_SetCompare1: (2)
+
+ 196 > _TIM3_SetCompare2: (2)
+
+ 197 > _TIM3_SetCounter: (2)
+
+ 198 > _TIM3_TimeBaseInit: (5)
+
+ 199 > _TIM3_UpdateDisableConfig: (3)
+ 200      + _assert_failed --> 4
+       
+ 201 > _TIM3_UpdateRequestConfig: (3)
+ 202      + _assert_failed --> 4
+       
+ 203 > _TIM4_ARRPreloadConfig: (3)
+ 204      + _assert_failed --> 4
+       
+ 205 > _TIM4_ClearITPendingBit: (3)
+ 206      + _assert_failed --> 4
+       
+ 207 > _TIM4_DeInit: (2)
+
+ 208 > _TIM4_GenerateEvent: (3)
+ 209      + _assert_failed --> 4
+       
+ 210 > _TIM4_GetCounter: (2)
+
+ 211 > _TIM4_GetFlagStatus: (4)
+ 212      + _assert_failed --> 4
+       
+ 213 > _TIM4_GetITStatus: (5)
+ 214      + _assert_failed --> 4
+       
+ 215 > _TIM4_GetPrescaler: (2)
+
+ 216 > _TIM4_PrescalerConfig: (4)
+ 217      + _assert_failed --> 4
+       
+ 218 > _TIM4_SelectOnePulseMode: (3)
+ 219      + _assert_failed --> 4
+       
+ 220 > _TIM4_SetAutoreload: (2)
+
+ 221 > _TIM4_SetCounter: (2)
+
+ 222 > _TIM4_UpdateDisableConfig: (3)
+ 223      + _assert_failed --> 4
+       
+ 224 > _TIM4_UpdateRequestConfig: (3)
+ 225      + _assert_failed --> 4
+       
+ 226 > __stext: (0)
+
+ 227 > _main: (2)
+ 228      + _Beep_Config: (2)
+ 229      |    + _BEEP_Init: (3)
+ 230      |    |    + _assert_failed --> 4
+          |    | 
+ 231      |    + _BEEP_LSICalibrationConfig: (12)
+ 232      |    |    + _assert_failed --> 4
+          |    | 
+ 233      |    + _LSIMeasurment: (14)
+ 234      |    |    + _CLK_GetClockFreq: (11)
+ 235      |    |    + _TIM3_ClearFlag: (4)
+ 236      |    |    |    + _assert_failed --> 4
+          |    |    | 
+ 237      |    |    + _TIM3_Cmd: (3)
+ 238      |    |    |    + _assert_failed --> 4
+          |    |    | 
+ 239      |    |    + _TIM3_GetCapture1: (6)
+ 240      |    |    + _TIM3_ICInit: (7)
+ 241      |    |    |    + L3_TI1_Config --> 99
+ 242      |    |    |    + L5_TI2_Config --> 100
+ 243      |    |    |    + _TIM3_SetIC1Prescaler --> 183
+ 244      |    |    |    + _TIM3_SetIC2Prescaler --> 185
+ 245      |    |    |    + _assert_failed --> 4
+          |    |    | 
+          |    | 
+          | 
+ 246      + _ButtonsService: (3)
+ 247      |    + _FunctionStartGenerator: (2)
+ 248      |    |    + _TIM2_Cmd: (3)
+ 249      |    |    |    + _assert_failed --> 4
+          |    |    | 
+ 250      |    |    + _TIM2_SetAutoreload: (2)
+ 251      |    |    + _TIM2_SetCounter: (2)
+          |    | 
+ 252      |    + _FunctionStopGenerator: (2)
+ 253      |    |    + _TIM2_Cmd --> 248
+          |    | 
+ 254      |    + _GPIO_ReadInputData: (2)
+          | 
+ 255      + _CLK_Config: (2)
+ 256      |    + _CLK_HSIPrescalerConfig: (3)
+ 257      |    |    + _assert_failed --> 4
+          |    | 
+ 258      |    + _CLK_LSICmd: (3)
+ 259      |    |    + _assert_failed --> 4
+          |    | 
+ 260      |    + _CLK_PeripheralClockConfig: (4)
+ 261      |    |    + _assert_failed --> 4
+          |    | 
+          | 
+ 262      + _EncoderService: (9)
+ 263      |    + _FunctionStopGenerator --> 252
+ 264      |    + _GPIO_ReadInputData --> 254
+ 265      |    + _NumberToNumberShow: (8)
+          | 
+ 266      + _GPIO_Config: (2)
+ 267      |    + _GPIO_Init: (6)
+ 268      |    |    + _assert_failed --> 4
+          |    | 
+ 269      |    + _GPIO_WriteLow: (5)
+          | 
+ 270      + _ITC_SetSoftwarePriority: (6)
+ 271      |    + _ITC_GetSoftIntStatus: (2)
+ 272      |    |    + _ITC_GetCPUCC: (2)
+          |    | 
+ 273      |    + _assert_failed --> 4
+          | 
+ 274      + _SPI_Config: (2)
+ 275      |    + _SPI_Cmd --> 68
+ 276      |    + _SPI_Init: (11)
+ 277      |    |    + _assert_failed --> 4
+          |    | 
+          | 
+ 278      + _ScreenUpdate: (2)
+ 279      |    + _GPIO_WriteLow --> 269
+ 280      |    + _SPI_ITConfig: (5)
+ 281      |    |    + _assert_failed --> 4
+          |    | 
+          | 
+ 282      + _StartTestPulse: (2)
+ 283      |    + _TIM2_Cmd --> 248
+ 284      |    + _TIM2_SetAutoreload --> 250
+ 285      |    + _TIM2_SetCounter --> 251
+          | 
+ 286      + _TimeService: (2)
+ 287      |    + _FunctionStartGenerator --> 247
+ 288      |    + _FunctionStopGenerator --> 252
+ 289      |    + _NumberToNumberShow --> 265
+ 290      |    + _TIM2_Cmd --> 248
+ 291      |    + _TIM2_SetAutoreload --> 250
+ 292      |    + _TIM2_SetCounter --> 251
+          | 
+ 293      + _Timers_Config: (2)
+ 294      |    + _TIM2_ITConfig: (4)
+ 295      |    |    + _assert_failed --> 4
+          |    | 
+ 296      |    + _TIM2_TimeBaseInit: (5)
+ 297      |    + _TIM4_ClearFlag: (3)
+ 298      |    |    + _assert_failed --> 4
+          |    | 
+ 299      |    + _TIM4_Cmd: (3)
+ 300      |    |    + _assert_failed --> 4
+          |    | 
+ 301      |    + _TIM4_ITConfig: (4)
+ 302      |    |    + _assert_failed --> 4
+          |    | 
+ 303      |    + _TIM4_TimeBaseInit: (4)
+ 304      |    |    + _assert_failed --> 4
+          |    | 
+          | 
+ 305      + _Variables_Config: (2)
+ 306      |    + _GPIO_ReadInputData --> 254
+ 307      |    + _NumberToNumberShow --> 265
+          | 
+       
+ 308 > f_ADC1_IRQHandler: (6)
+
+ 309 > f_AWU_IRQHandler: (6)
+
+ 310 > f_CLK_IRQHandler: (6)
+
+ 311 > f_EEPROM_EEC_IRQHandler: (6)
+
+ 312 > f_EXTI_PORTA_IRQHandler: (6)
+
+ 313 > f_EXTI_PORTB_IRQHandler: (6)
+
+ 314 > f_EXTI_PORTC_IRQHandler: (6)
+
+ 315 > f_EXTI_PORTD_IRQHandler: (6)
+
+ 316 > f_EXTI_PORTE_IRQHandler: (6)
+
+ 317 > f_I2C_IRQHandler: (6)
+
+ 318 > f_NonHandledInterrupt: (6)
+
+ 319 > f_SPI_IRQHandler: (6)
+
+ 320 > f_TIM1_CAP_COM_IRQHandler: (6)
+
+ 321 > f_TIM1_UPD_OVF_TRG_BRK_IRQHandler: (6)
+
+ 322 > f_TIM2_CAP_COM_IRQHandler: (6)
+
+ 323 > f_TIM2_UPD_OVF_BRK_IRQHandler: (6)
+
+ 324 > f_TIM3_CAP_COM_IRQHandler: (6)
+
+ 325 > f_TIM3_UPD_OVF_BRK_IRQHandler: (6)
+
+ 326 > f_TIM4_UPD_OVF_IRQHandler: (6)
+
+ 327 > f_TLI_IRQHandler: (6)
+
+ 328 > f_TRAP_IRQHandler: (6)
+
+ 329 > f_UART2_RX_IRQHandler: (6)
+
+ 330 > f_UART2_TX_IRQHandler: (6)
+
+ 331   L3_TI1_Config --> 99
+
+ 332   L5_TI2_Config --> 100
+
+ 333   L7_TI3_Config --> 101
+
+ 334   _BEEP_Init --> 229
+
+ 335   _BEEP_LSICalibrationConfig --> 231
+
+ 336   _Beep_Config --> 228
+
+ 337   _ButtonsService --> 246
+
+ 338   _CLK_Config --> 255
+
+ 339   _CLK_GetClockFreq --> 234
+
+ 340   _CLK_HSIPrescalerConfig --> 256
+
+ 341   _CLK_LSICmd --> 258
+
+ 342   _CLK_PeripheralClockConfig --> 260
+
+ 343   _EncoderService --> 262
+
+ 344   _FunctionStartGenerator --> 247
+
+ 345   _FunctionStopGenerator --> 252
+
+ 346   _GPIO_Config --> 266
+
+ 347   _GPIO_Init --> 267
+
+ 348   _GPIO_ReadInputData --> 254
+
+ 349   _GPIO_WriteLow --> 269
+
+ 350   _ITC_GetCPUCC --> 272
+
+ 351   _ITC_GetSoftIntStatus --> 271
+
+ 352   _ITC_SetSoftwarePriority --> 270
+
+ 353   _LSIMeasurment --> 233
+
+ 354   _NumberToNumberShow --> 265
+
+ 355   _SPI_CalculateCRCCmd --> 66
+
+ 356   _SPI_Cmd --> 68
+
+ 357   _SPI_Config --> 274
+
+ 358   _SPI_ITConfig --> 280
+
+ 359   _SPI_Init --> 276
+
+ 360   _ScreenUpdate --> 278
+
+ 361   _StartTestPulse --> 282
+
+ 362   _TIM2_Cmd --> 248
+
+ 363   _TIM2_ITConfig --> 294
+
+ 364   _TIM2_SetAutoreload --> 250
+
+ 365   _TIM2_SetCounter --> 251
+
+ 366   _TIM2_SetIC1Prescaler --> 102
+
+ 367   _TIM2_SetIC2Prescaler --> 104
+
+ 368   _TIM2_SetIC3Prescaler --> 106
+
+ 369   _TIM2_TimeBaseInit --> 296
+
+ 370   _TIM3_ClearFlag --> 235
+
+ 371   _TIM3_Cmd --> 237
+
+ 372   _TIM3_GetCapture1 --> 239
+
+ 373   _TIM3_ICInit --> 240
+
+ 374   _TIM3_SetIC1Prescaler --> 183
+
+ 375   _TIM3_SetIC2Prescaler --> 185
+
+ 376   _TIM4_ClearFlag --> 297
+
+ 377   _TIM4_Cmd --> 299
+
+ 378   _TIM4_ITConfig --> 301
+
+ 379   _TIM4_TimeBaseInit --> 303
+
+ 380   _TimeService --> 286
+
+ 381   _Timers_Config --> 293
+
+ 382   _Variables_Config --> 305
+
+ 383   _assert_failed --> 4
+
+
+
+                               -------
+                               Symbols
+                               -------
+
+_BEEP_Cmd                           0000826e   defined in ..\program_sgk_v1\stm8s_beep.o section .text
+_BEEP_DeInit                        00008224   defined in ..\program_sgk_v1\stm8s_beep.o section .text
+_BEEP_Init                          00008229   defined in ..\program_sgk_v1\stm8s_beep.o section .text
+                                               used in ..\program_sgk_v1\initial_tuning.o
+_BEEP_LSICalibrationConfig          0000827b   defined in ..\program_sgk_v1\stm8s_beep.o section .text
+                                               used in ..\program_sgk_v1\initial_tuning.o
+_BeepTimeCounte2                    00000189   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\subroutines.o
+_BeepTimeCounter                    0000018a   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\subroutines.o
+_Beep_Config                        0000a4c6   defined in ..\program_sgk_v1\initial_tuning.o section .text
+                                               used in ..\program_sgk_v1\main.o
+_ButtonsService                     0000b017   defined in ..\program_sgk_v1\subroutines.o section .text
+                                               used in ..\program_sgk_v1\main.o
+_CLKPrescTable                      000080ab   defined in ..\program_sgk_v1\stm8s_clk.o section .const
+_CLK_AdjustHSICalibrationValue      0000879f   defined in ..\program_sgk_v1\stm8s_clk.o section .text
+_CLK_CCOCmd                         000083c3   defined in ..\program_sgk_v1\stm8s_clk.o section .text
+_CLK_CCOConfig                      000085f5   defined in ..\program_sgk_v1\stm8s_clk.o section .text
+_CLK_ClearITPendingBit              00008897   defined in ..\program_sgk_v1\stm8s_clk.o section .text
+_CLK_ClockSecuritySystemEnable      00008735   defined in ..\program_sgk_v1\stm8s_clk.o section .text
+_CLK_ClockSwitchCmd                 000083e8   defined in ..\program_sgk_v1\stm8s_clk.o section .text
+_CLK_ClockSwitchConfig              000084e1   defined in ..\program_sgk_v1\stm8s_clk.o section .text
+_CLK_Config                         0000a2ac   defined in ..\program_sgk_v1\initial_tuning.o section .text
+                                               used in ..\program_sgk_v1\main.o
+_CLK_DeInit                         000082f9   defined in ..\program_sgk_v1\stm8s_clk.o section .text
+_CLK_FastHaltWakeUpCmd              0000832f   defined in ..\program_sgk_v1\stm8s_clk.o section .text
+_CLK_GetClockFreq                   0000873e   defined in ..\program_sgk_v1\stm8s_clk.o section .text
+                                               used in ..\program_sgk_v1\initial_tuning.o
+_CLK_GetFlagStatus                  000087de   defined in ..\program_sgk_v1\stm8s_clk.o section .text
+_CLK_GetITStatus                    0000885e   defined in ..\program_sgk_v1\stm8s_clk.o section .text
+_CLK_GetSYSCLKSource                0000873a   defined in ..\program_sgk_v1\stm8s_clk.o section .text
+_CLK_HSECmd                         00008354   defined in ..\program_sgk_v1\stm8s_clk.o section .text
+_CLK_HSICmd                         00008379   defined in ..\program_sgk_v1\stm8s_clk.o section .text
+_CLK_HSIPrescalerConfig             000085c5   defined in ..\program_sgk_v1\stm8s_clk.o section .text
+                                               used in ..\program_sgk_v1\initial_tuning.o
+_CLK_ITConfig                       0000864d   defined in ..\program_sgk_v1\stm8s_clk.o section .text
+_CLK_LSICmd                         0000839e   defined in ..\program_sgk_v1\stm8s_clk.o section .text
+                                               used in ..\program_sgk_v1\initial_tuning.o
+_CLK_PeripheralClockConfig          00008432   defined in ..\program_sgk_v1\stm8s_clk.o section .text
+                                               used in ..\program_sgk_v1\initial_tuning.o
+_CLK_SWIMConfig                     00008710   defined in ..\program_sgk_v1\stm8s_clk.o section .text
+_CLK_SYSCLKConfig                   000086ac   defined in ..\program_sgk_v1\stm8s_clk.o section .text
+_CLK_SYSCLKEmergencyClear           000087d9   defined in ..\program_sgk_v1\stm8s_clk.o section .text
+_CLK_SlowActiveHaltWakeUpCmd        0000840d   defined in ..\program_sgk_v1\stm8s_clk.o section .text
+_Chenal1Enable                      00000180   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\stm8s_it.o
+                                                       ..\program_sgk_v1\subroutines.o
+_Chenal1Number                      00000184   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\subroutines.o
+_Chenal1NumberPWM                   0000017c   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\stm8s_it.o
+                                                       ..\program_sgk_v1\subroutines.o
+_Chenal1NumberShow                  00000177   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\subroutines.o
+_Chenal2Enable                      0000017f   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\stm8s_it.o
+                                                       ..\program_sgk_v1\subroutines.o
+_Chenal2Number                      00000183   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\subroutines.o
+_Chenal2NumberPWM                   0000017b   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\stm8s_it.o
+                                                       ..\program_sgk_v1\subroutines.o
+_Chenal2NumberShow                  00000175   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\subroutines.o
+_Chenal3Enable                      0000017e   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\stm8s_it.o
+                                                       ..\program_sgk_v1\subroutines.o
+_Chenal3Number                      00000182   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\subroutines.o
+_Chenal3NumberPWM                   0000017a   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\stm8s_it.o
+                                                       ..\program_sgk_v1\subroutines.o
+_Chenal3NumberShow                  00000173   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\subroutines.o
+_Chenal4Enable                      0000017d   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\stm8s_it.o
+                                                       ..\program_sgk_v1\subroutines.o
+_Chenal4Number                      00000181   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\subroutines.o
+_Chenal4NumberPWM                   00000179   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\stm8s_it.o
+                                                       ..\program_sgk_v1\subroutines.o
+_Chenal4NumberShow                  00000171   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\subroutines.o
+_CounterButtonsDelay                00000169   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\subroutines.o
+_CounterEncoderDelay                0000016b   defined in ..\program_sgk_v1\main.o section .bss
+_CounterParselPeriod                00000168   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\subroutines.o
+_CurrentPulsePeriod                 00000166   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\stm8s_it.o
+                                                       ..\program_sgk_v1\subroutines.o
+_Device                             000001a1   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\stm8s_it.o
+                                                       ..\program_sgk_v1\subroutines.o
+_Device2                            000001a0   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\subroutines.o
+_EncoderService                     0000b2a4   defined in ..\program_sgk_v1\subroutines.o section .text
+                                               used in ..\program_sgk_v1\main.o
+_FunctionStartGenerator             0000b7dd   defined in ..\program_sgk_v1\subroutines.o section .text
+_FunctionStopGenerator              0000b840   defined in ..\program_sgk_v1\subroutines.o section .text
+_GPIO_Config                        0000a2cd   defined in ..\program_sgk_v1\initial_tuning.o section .text
+                                               used in ..\program_sgk_v1\main.o
+_GPIO_DeInit                        000088c0   defined in ..\program_sgk_v1\stm8s_gpio.o section .text
+_GPIO_ExternalPullUpConfig          0000898b   defined in ..\program_sgk_v1\stm8s_gpio.o section .text
+_GPIO_Init                          000088c8   defined in ..\program_sgk_v1\stm8s_gpio.o section .text
+                                               used in ..\program_sgk_v1\initial_tuning.o
+_GPIO_ReadInputData                 00008983   defined in ..\program_sgk_v1\stm8s_gpio.o section .text
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\subroutines.o
+_GPIO_ReadInputPin                  00008986   defined in ..\program_sgk_v1\stm8s_gpio.o section .text
+_GPIO_ReadOutputData                00008981   defined in ..\program_sgk_v1\stm8s_gpio.o section .text
+_GPIO_Write                         0000896d   defined in ..\program_sgk_v1\stm8s_gpio.o section .text
+_GPIO_WriteHigh                     00008971   defined in ..\program_sgk_v1\stm8s_gpio.o section .text
+_GPIO_WriteLow                      00008976   defined in ..\program_sgk_v1\stm8s_gpio.o section .text
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\subroutines.o
+_GPIO_WriteReverse                  0000897c   defined in ..\program_sgk_v1\stm8s_gpio.o section .text
+_HSIDivFactor                       000080a7   defined in ..\program_sgk_v1\stm8s_clk.o section .const
+_ITC_DeInit                         000089cd   defined in ..\program_sgk_v1\stm8s_itc.o section .text
+_ITC_GetCPUCC                       000089ca   defined in ..\program_sgk_v1\stm8s_itc.o section .text
+_ITC_GetSoftIntStatus               000089ee   defined in ..\program_sgk_v1\stm8s_itc.o section .text
+_ITC_GetSoftwarePriority            000089f3   defined in ..\program_sgk_v1\stm8s_itc.o section .text
+_ITC_SetSoftwarePriority            00008a60   defined in ..\program_sgk_v1\stm8s_itc.o section .text
+                                               used in ..\program_sgk_v1\main.o
+_IndicatorsData                     00000191   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\stm8s_it.o
+                                                       ..\program_sgk_v1\subroutines.o
+_IndicatorsDataPointer              00000190   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\stm8s_it.o
+                                                       ..\program_sgk_v1\subroutines.o
+_LSIMeasurment                      0000a5b8   defined in ..\program_sgk_v1\initial_tuning.o section .text
+_LedData                            0000018f   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\subroutines.o
+_NumberToNumberShow                 0000b66e   defined in ..\program_sgk_v1\subroutines.o section .text
+                                               used in ..\program_sgk_v1\initial_tuning.o
+_OutPWM                             00000100   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\stm8s_it.o
+_RealTimeCounter                    0000018d   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\subroutines.o
+_RealTimeMinute                     0000018b   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\subroutines.o
+_RealTimeMinuteNumberShow           00000185   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\subroutines.o
+_RealTimeSecond                     0000018c   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\subroutines.o
+_RealTimeSecondNumberShow           00000187   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\subroutines.o
+_SPI_BiDirectionalLineConfig        00008d87   defined in ..\program_sgk_v1\stm8s_spi.o section .text
+_SPI_CalculateCRCCmd                00008d30   defined in ..\program_sgk_v1\stm8s_spi.o section .text
+_SPI_ClearFlag                      00008de6   defined in ..\program_sgk_v1\stm8s_spi.o section .text
+_SPI_ClearITPendingBit              00008e68   defined in ..\program_sgk_v1\stm8s_spi.o section .text
+_SPI_Cmd                            00008c7a   defined in ..\program_sgk_v1\stm8s_spi.o section .text
+                                               used in ..\program_sgk_v1\initial_tuning.o
+_SPI_Config                         0000a4d9   defined in ..\program_sgk_v1\initial_tuning.o section .text
+                                               used in ..\program_sgk_v1\main.o
+_SPI_DeInit                         00008b5d   defined in ..\program_sgk_v1\stm8s_spi.o section .text
+_SPI_GetCRC                         00008d55   defined in ..\program_sgk_v1\stm8s_spi.o section .text
+_SPI_GetCRCPolynomial               00008d83   defined in ..\program_sgk_v1\stm8s_spi.o section .text
+_SPI_GetFlagStatus                  00008dac   defined in ..\program_sgk_v1\stm8s_spi.o section .text
+_SPI_GetITStatus                    00008e05   defined in ..\program_sgk_v1\stm8s_spi.o section .text
+_SPI_ITConfig                       00008c9f   defined in ..\program_sgk_v1\stm8s_spi.o section .text
+                                               used in ..\program_sgk_v1\subroutines.o
+_SPI_Init                           00008b72   defined in ..\program_sgk_v1\stm8s_spi.o section .text
+                                               used in ..\program_sgk_v1\initial_tuning.o
+_SPI_NSSInternalSoftwareCmd         00008d06   defined in ..\program_sgk_v1\stm8s_spi.o section .text
+_SPI_ReceiveData                    00008d02   defined in ..\program_sgk_v1\stm8s_spi.o section .text
+_SPI_ResetCRC                       00008d7a   defined in ..\program_sgk_v1\stm8s_spi.o section .text
+_SPI_SendData                       00008cfe   defined in ..\program_sgk_v1\stm8s_spi.o section .text
+_SPI_TransmitCRC                    00008d2b   defined in ..\program_sgk_v1\stm8s_spi.o section .text
+_ScreenUpdate                       0000b746   defined in ..\program_sgk_v1\subroutines.o section .text
+                                               used in ..\program_sgk_v1\main.o
+_StartTestPulse                     0000b855   defined in ..\program_sgk_v1\subroutines.o section .text
+                                               used in ..\program_sgk_v1\main.o
+_StateButtons                       0000016a   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\initial_tuning.o
+                                                       ..\program_sgk_v1\subroutines.o
+_StateEncoder1                      00000170   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\subroutines.o
+_StateEncoder2                      0000016f   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\subroutines.o
+_StateEncoder3                      0000016e   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\subroutines.o
+_StateEncoder4                      0000016d   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\subroutines.o
+_StateEncoder5                      0000016c   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\subroutines.o
+_TIM1_ARRPreloadConfig              ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_BDTRConfig                    ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_CCPreloadControl              ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_CCxCmd                        ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_CCxNCmd                       ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_ClearFlag                     ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_ClearITPendingBit             ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_Cmd                           ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_CounterModeConfig             ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_CtrlPWMOutputs                ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_DeInit                        ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_ETRClockMode1Config           ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_ETRClockMode2Config           ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_ETRConfig                     ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_EncoderInterfaceConfig        ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_ForcedOC1Config               ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_ForcedOC2Config               ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_ForcedOC3Config               ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_ForcedOC4Config               ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_GenerateEvent                 ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_GetCapture1                   ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_GetCapture2                   ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_GetCapture3                   ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_GetCapture4                   ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_GetCounter                    ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_GetFlagStatus                 ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_GetITStatus                   ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_GetPrescaler                  ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_ICInit                        ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_ITConfig                      ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_InternalClockConfig           ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_OC1FastConfig                 ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_OC1Init                       ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_OC1NPolarityConfig            ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_OC1PolarityConfig             ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_OC1PreloadConfig              ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_OC2FastConfig                 ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_OC2Init                       ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_OC2NPolarityConfig            ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_OC2PolarityConfig             ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_OC2PreloadConfig              ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_OC3FastConfig                 ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_OC3Init                       ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_OC3NPolarityConfig            ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_OC3PolarityConfig             ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_OC3PreloadConfig              ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_OC4FastConfig                 ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_OC4Init                       ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_OC4PolarityConfig             ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_OC4PreloadConfig              ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_PWMIConfig                    ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_PrescalerConfig               ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_SelectCOM                     ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_SelectHallSensor              ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_SelectInputTrigger            ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_SelectMasterSlaveMode         ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_SelectOCxM                    ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_SelectOnePulseMode            ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_SelectOutputTrigger           ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_SelectSlaveMode               ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_SetAutoreload                 ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_SetCompare1                   ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_SetCompare2                   ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_SetCompare3                   ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_SetCompare4                   ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_SetCounter                    ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_SetIC1Prescaler               ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_SetIC2Prescaler               ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_SetIC3Prescaler               ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_SetIC4Prescaler               ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_TIxExternalClockConfig        ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_TimeBaseInit                  ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_UpdateDisableConfig           ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM1_UpdateRequestConfig           ********   *** removed from ..\program_sgk_v1\stm8s_tim1.o ***
+_TIM2_ARRPreloadConfig              000093e4   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_AutoreloadValue               00000164   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\subroutines.o
+_TIM2_CCxCmd                        00009503   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_ClearFlag                     00009754   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_ClearITPendingBit             000097bb   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_Cmd                           00009232   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+                                               used in ..\program_sgk_v1\subroutines.o
+_TIM2_DeInit                        00008e96   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_ForcedOC1Config               0000937b   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_ForcedOC2Config               0000939e   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_ForcedOC3Config               000093c1   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_GenerateEvent                 00009478   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_GetCapture1                   00009697   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_GetCapture2                   000096b4   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_GetCapture3                   000096d1   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_GetCounter                    000096ee   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_GetFlagStatus                 0000970a   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_GetITStatus                   0000977d   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_GetPrescaler                  00009706   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_ICInit                        0000909b   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_ITConfig                      00009257   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+                                               used in ..\program_sgk_v1\initial_tuning.o
+_TIM2_OC1Init                       00008efd   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_OC1PolarityConfig             00009491   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_OC1PreloadConfig              00009409   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_OC2Init                       00008f87   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_OC2PolarityConfig             000094b7   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_OC2PreloadConfig              0000942e   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_OC3Init                       00009011   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_OC3PolarityConfig             000094dd   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_OC3PreloadConfig              00009453   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_PWMIConfig                    0000915e   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_PrescalerConfig               0000930a   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_SelectOCxM                    0000956b   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_SelectOnePulseMode            000092e4   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_SetAutoreload                 000095f5   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+                                               used in ..\program_sgk_v1\subroutines.o
+_TIM2_SetCompare1                   000095fe   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_SetCompare2                   00009607   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_SetCompare3                   00009610   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_SetCounter                    000095ec   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+                                               used in ..\program_sgk_v1\subroutines.o
+_TIM2_SetIC1Prescaler               00009619   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_SetIC2Prescaler               00009643   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_SetIC3Prescaler               0000966d   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_TimeBaseInit                  00008eef   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+                                               used in ..\program_sgk_v1\initial_tuning.o
+_TIM2_UpdateDisableConfig           0000929a   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM2_UpdateRequestConfig           000092bf   defined in ..\program_sgk_v1\stm8s_tim2.o section .text
+_TIM3_ARRPreloadConfig              00009cdc   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_CCxCmd                        00009db0   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_ClearFlag                     00009f77   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+                                               used in ..\program_sgk_v1\initial_tuning.o
+_TIM3_ClearITPendingBit             00009fdc   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_Cmd                           00009b4d   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+                                               used in ..\program_sgk_v1\initial_tuning.o
+_TIM3_DeInit                        00009869   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_ForcedOC1Config               00009c96   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_ForcedOC2Config               00009cb9   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_GenerateEvent                 00009d4b   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_GetCapture1                   00009ee1   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+                                               used in ..\program_sgk_v1\initial_tuning.o
+_TIM3_GetCapture2                   00009efe   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_GetCounter                    00009f1b   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_GetFlagStatus                 00009f37   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_GetITStatus                   00009fa2   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_GetPrescaler                  00009f33   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_ICInit                        000099d0   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+                                               used in ..\program_sgk_v1\initial_tuning.o
+_TIM3_ITConfig                      00009b72   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_OC1Init                       000098bc   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_OC1PolarityConfig             00009d64   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_OC1PreloadConfig              00009d01   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_OC2Init                       00009946   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_OC2PolarityConfig             00009d8a   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_OC2PreloadConfig              00009d26   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_PWMIConfig                    00009a78   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_PrescalerConfig               00009c25   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_SelectOCxM                    00009e00   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_SelectOnePulseMode            00009bff   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_SetAutoreload                 00009e72   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_SetCompare1                   00009e7b   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_SetCompare2                   00009e84   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_SetCounter                    00009e69   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_SetIC1Prescaler               00009e8d   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_SetIC2Prescaler               00009eb7   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_TimeBaseInit                  000098ae   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_UpdateDisableConfig           00009bb5   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM3_UpdateRequestConfig           00009bda   defined in ..\program_sgk_v1\stm8s_tim3.o section .text
+_TIM4_ARRPreloadConfig              0000a1d8   defined in ..\program_sgk_v1\stm8s_tim4.o section .text
+_TIM4_ClearFlag                     0000a247   defined in ..\program_sgk_v1\stm8s_tim4.o section .text
+                                               used in ..\program_sgk_v1\initial_tuning.o
+_TIM4_ClearITPendingBit             0000a292   defined in ..\program_sgk_v1\stm8s_tim4.o section .text
+_TIM4_Cmd                           0000a0b4   defined in ..\program_sgk_v1\stm8s_tim4.o section .text
+                                               used in ..\program_sgk_v1\initial_tuning.o
+_TIM4_DeInit                        0000a05a   defined in ..\program_sgk_v1\stm8s_tim4.o section .text
+_TIM4_GenerateEvent                 0000a1fd   defined in ..\program_sgk_v1\stm8s_tim4.o section .text
+_TIM4_GetCounter                    0000a21e   defined in ..\program_sgk_v1\stm8s_tim4.o section .text
+_TIM4_GetFlagStatus                 0000a226   defined in ..\program_sgk_v1\stm8s_tim4.o section .text
+_TIM4_GetITStatus                   0000a261   defined in ..\program_sgk_v1\stm8s_tim4.o section .text
+_TIM4_GetPrescaler                  0000a222   defined in ..\program_sgk_v1\stm8s_tim4.o section .text
+_TIM4_ITConfig                      0000a0d9   defined in ..\program_sgk_v1\stm8s_tim4.o section .text
+                                               used in ..\program_sgk_v1\initial_tuning.o
+_TIM4_PrescalerConfig               0000a187   defined in ..\program_sgk_v1\stm8s_tim4.o section .text
+_TIM4_SelectOnePulseMode            0000a161   defined in ..\program_sgk_v1\stm8s_tim4.o section .text
+_TIM4_SetAutoreload                 0000a21a   defined in ..\program_sgk_v1\stm8s_tim4.o section .text
+_TIM4_SetCounter                    0000a216   defined in ..\program_sgk_v1\stm8s_tim4.o section .text
+_TIM4_TimeBaseInit                  0000a073   defined in ..\program_sgk_v1\stm8s_tim4.o section .text
+                                               used in ..\program_sgk_v1\initial_tuning.o
+_TIM4_UpdateDisableConfig           0000a117   defined in ..\program_sgk_v1\stm8s_tim4.o section .text
+_TIM4_UpdateRequestConfig           0000a13c   defined in ..\program_sgk_v1\stm8s_tim4.o section .text
+_TaskCounter                        0000018e   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\stm8s_it.o
+_Taskboard                          0000019e   defined in ..\program_sgk_v1\main.o section .bss
+                                               used in ..\program_sgk_v1\stm8s_it.o
+                                                       ..\program_sgk_v1\subroutines.o
+_TimeService                        0000b134   defined in ..\program_sgk_v1\subroutines.o section .text
+                                               used in ..\program_sgk_v1\main.o
+_Timers_Config                      0000a4a0   defined in ..\program_sgk_v1\initial_tuning.o section .text
+                                               used in ..\program_sgk_v1\main.o
+_Variables_Config                   0000a4f0   defined in ..\program_sgk_v1\initial_tuning.o section .text
+                                               used in ..\program_sgk_v1\main.o
+_Version                            ********   *** removed from ..\program_sgk_v1\main.o ***
+__endmem                            000005ff   defined in command file
+                                               *** not used ***
+__endzp                             0000000a   defined in command file section .ubsct
+                                               used in C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__idesc__                           000081d1   defined in linker section .init
+                                               used in C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__memory                            000001a2   defined in command file section .bss
+                                               used in C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__stack                             000007ff   defined in command file
+                                               used in C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+__startmem                          000001a2   defined in command file section .bss
+                                               *** not used ***
+__stext                             000081d4   defined in C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8 section .text
+                                               used in ..\program_sgk_v1\stm8_interrupt_vector.o
+__vectab                            00008000   defined in ..\program_sgk_v1\stm8_interrupt_vector.o section .const
+_assert_failed                      0000a67d   defined in ..\program_sgk_v1\main.o section .text
+                                               used in ..\program_sgk_v1\stm8s_beep.o
+                                                       ..\program_sgk_v1\stm8s_clk.o
+                                                       ..\program_sgk_v1\stm8s_gpio.o
+                                                       ..\program_sgk_v1\stm8s_itc.o
+                                                       ..\program_sgk_v1\stm8s_spi.o
+                                                       ..\program_sgk_v1\stm8s_tim1.o
+                                                       ..\program_sgk_v1\stm8s_tim2.o
+                                                       ..\program_sgk_v1\stm8s_tim3.o
+                                                       ..\program_sgk_v1\stm8s_tim4.o
+_exit                               00008222   defined in C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8 section .text
+_main                               0000a634   defined in ..\program_sgk_v1\main.o section .text
+                                               used in C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+c_divsl                             0000b917   defined in (C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o section .text
+                                               *** not used ***
+c_divul                             0000b92e   defined in (C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o section .text
+                                               used in (C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ludiv.o
+c_imul                              0000b8a1   defined in (C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)imul.o section .text
+                                               used in ..\program_sgk_v1\stm8s_beep.o
+c_lcmp                              0000b8c2   defined in (C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lcmp.o section .text
+                                               used in ..\program_sgk_v1\stm8s_beep.o
+c_lgneg                             0000ba02   defined in (C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lgneg.o section .text
+                                               used in (C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o
+c_llsh                              0000b8e2   defined in (C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)llsh.o section .text
+                                               used in ..\program_sgk_v1\initial_tuning.o
+c_lneg                              0000ba15   defined in (C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lneg.o section .text
+                                               used in (C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o
+c_lreg                              00000000   defined in (C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lreg.o section .ubsct
+                                               used in ..\program_sgk_v1\stm8s_beep.o
+                                                       ..\program_sgk_v1\stm8s_clk.o
+                                                       ..\program_sgk_v1\initial_tuning.o
+                                                       (C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lcmp.o
+                                                       (C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)llsh.o
+                                                       (C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ltor.o
+                                                       (C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o
+                                                       (C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)lneg.o
+                                                       (C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)rtol.o
+                                                       (C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)utolx.o
+c_ltor                              0000b8f1   defined in (C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ltor.o section .text
+                                               used in ..\program_sgk_v1\stm8s_beep.o
+                                                       ..\program_sgk_v1\stm8s_clk.o
+                                                       ..\program_sgk_v1\initial_tuning.o
+c_ludv                              0000b903   defined in (C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ludiv.o section .text
+                                               used in ..\program_sgk_v1\stm8s_beep.o
+                                                       ..\program_sgk_v1\stm8s_clk.o
+                                                       ..\program_sgk_v1\initial_tuning.o
+c_rtol                              0000ba2a   defined in (C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)rtol.o section .text
+                                               used in ..\program_sgk_v1\stm8s_clk.o
+                                                       ..\program_sgk_v1\initial_tuning.o
+c_uitolx                            0000ba3c   defined in (C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)utolx.o section .text
+                                               used in ..\program_sgk_v1\initial_tuning.o
+c_x                                 00000004   defined in (C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)xreg.o section .ubsct
+                                               used in C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+                                                       ..\program_sgk_v1\stm8s_beep.o
+                                                       (C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)imul.o
+                                                       (C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)ldiv.o
+c_y                                 00000007   defined in (C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\libm0.sm8)yreg.o section .ubsct
+                                               used in C:\Program Files\COSMIC\FSE_Compilers\CXSTM8\lib\crtsi0.sm8
+f_ADC1_IRQHandler                   0000afe2   defined in ..\program_sgk_v1\stm8s_it.o section .text
+                                               used in ..\program_sgk_v1\stm8_interrupt_vector.o
+f_AWU_IRQHandler                    0000a682   defined in ..\program_sgk_v1\stm8s_it.o section .text
+                                               used in ..\program_sgk_v1\stm8_interrupt_vector.o
+f_CLK_IRQHandler                    0000a683   defined in ..\program_sgk_v1\stm8s_it.o section .text
+                                               used in ..\program_sgk_v1\stm8_interrupt_vector.o
+f_EEPROM_EEC_IRQHandler             0000b016   defined in ..\program_sgk_v1\stm8s_it.o section .text
+                                               used in ..\program_sgk_v1\stm8_interrupt_vector.o
+f_EXTI_PORTA_IRQHandler             0000a684   defined in ..\program_sgk_v1\stm8s_it.o section .text
+                                               used in ..\program_sgk_v1\stm8_interrupt_vector.o
+f_EXTI_PORTB_IRQHandler             0000a685   defined in ..\program_sgk_v1\stm8s_it.o section .text
+                                               used in ..\program_sgk_v1\stm8_interrupt_vector.o
+f_EXTI_PORTC_IRQHandler             0000a686   defined in ..\program_sgk_v1\stm8s_it.o section .text
+                                               used in ..\program_sgk_v1\stm8_interrupt_vector.o
+f_EXTI_PORTD_IRQHandler             0000a687   defined in ..\program_sgk_v1\stm8s_it.o section .text
+                                               used in ..\program_sgk_v1\stm8_interrupt_vector.o
+f_EXTI_PORTE_IRQHandler             0000a688   defined in ..\program_sgk_v1\stm8s_it.o section .text
+                                               used in ..\program_sgk_v1\stm8_interrupt_vector.o
+f_I2C_IRQHandler                    0000afdf   defined in ..\program_sgk_v1\stm8s_it.o section .text
+                                               used in ..\program_sgk_v1\stm8_interrupt_vector.o
+f_NonHandledInterrupt               0000a67f   defined in ..\program_sgk_v1\stm8s_it.o section .text
+                                               used in ..\program_sgk_v1\stm8_interrupt_vector.o
+f_SPI_IRQHandler                    0000a689   defined in ..\program_sgk_v1\stm8s_it.o section .text
+                                               used in ..\program_sgk_v1\stm8_interrupt_vector.o
+f_TIM1_CAP_COM_IRQHandler           0000a6a7   defined in ..\program_sgk_v1\stm8s_it.o section .text
+                                               used in ..\program_sgk_v1\stm8_interrupt_vector.o
+f_TIM1_UPD_OVF_TRG_BRK_IRQHandler   0000a6a6   defined in ..\program_sgk_v1\stm8s_it.o section .text
+                                               used in ..\program_sgk_v1\stm8_interrupt_vector.o
+f_TIM2_CAP_COM_IRQHandler           0000afdc   defined in ..\program_sgk_v1\stm8s_it.o section .text
+                                               used in ..\program_sgk_v1\stm8_interrupt_vector.o
+f_TIM2_UPD_OVF_BRK_IRQHandler       0000a6a8   defined in ..\program_sgk_v1\stm8s_it.o section .text
+                                               used in ..\program_sgk_v1\stm8_interrupt_vector.o
+f_TIM3_CAP_COM_IRQHandler           0000afde   defined in ..\program_sgk_v1\stm8s_it.o section .text
+                                               used in ..\program_sgk_v1\stm8_interrupt_vector.o
+f_TIM3_UPD_OVF_BRK_IRQHandler       0000afdd   defined in ..\program_sgk_v1\stm8s_it.o section .text
+                                               used in ..\program_sgk_v1\stm8_interrupt_vector.o
+f_TIM4_UPD_OVF_IRQHandler           0000afe3   defined in ..\program_sgk_v1\stm8s_it.o section .text
+                                               used in ..\program_sgk_v1\stm8_interrupt_vector.o
+f_TLI_IRQHandler                    0000a681   defined in ..\program_sgk_v1\stm8s_it.o section .text
+                                               used in ..\program_sgk_v1\stm8_interrupt_vector.o
+f_TRAP_IRQHandler                   0000a680   defined in ..\program_sgk_v1\stm8s_it.o section .text
+                                               used in ..\program_sgk_v1\stm8_interrupt_vector.o
+f_UART2_RX_IRQHandler               0000afe1   defined in ..\program_sgk_v1\stm8s_it.o section .text
+                                               used in ..\program_sgk_v1\stm8_interrupt_vector.o
+f_UART2_TX_IRQHandler               0000afe0   defined in ..\program_sgk_v1\stm8s_it.o section .text
+                                               used in ..\program_sgk_v1\stm8_interrupt_vector.o
